@@ -64,76 +64,76 @@ lang:
       OK: '§f科学家: %s预计今年会有正常的降雪天气'
       HIGH: '§f科学家: %s高二氧化碳会影响雪况'
     SLOWNESS:
-      LOW: '§fDoctors: %sreporting increased respiratory issues'
-      OK: '§fDoctors: %san apple a day is a great snack'
-      HIGH: '§fDoctors: %sreporting increased respiratory issues'
+      LOW: '§f医生: %s报告呼吸系统问题增多'
+      OK: '§f医生: %s一天一个苹果让我远离你'
+      HIGH: '§f医生: %s报告呼吸系统问题增多'
     WEATHER:
-      LOW: '§fMeteorologists: %sexpect more storms this year'
-      OK: '§fMeteorologists: %swind is mild; seas, a light chop'
-      HIGH: '§fMeteorologists: %sexpect more storms this year'
+      LOW: '§f气象学家: %s预计今年会有更多风暴'
+      OK: '§f气象学家: %s风是温和的, 海是轻快的'
+      HIGH: '§f气象学家: %s预计今年会有更多风暴'
   SCORE:
-    CHAT: '§fYour carbon footprint: %s§f, global temperature: %s§f°C'
-    TEMPERATURE: '§fGlobal Temp: %s%s§f°C'
+    CHAT: '§f你的碳足迹: %s§f, 全球温度: %s§f°C'
+    TEMPERATURE: '§f全球温度: %s%s§f°C'
   TABLE:
-    EMPTY: NO RECORDS FOUND
+    EMPTY: 找不到记录
   TEMPERATURE:
-    LOW: '§fGlobal CO2 levels are too low: §6increase furnace emissions'
-    BALANCED: Global CO2 levels are in balance
-    HIGH: '§fGlobal CO2 levels are too high: §6plant new saplings'
-    HIGHWITHBOUNTY: '§fOr see: §6/gw help§f to create a bounty'
-    AVERAGE: 'Mean temperature from 1951-80: §614°C §7[GISS]§f, this is your goal'
+    LOW: '§f全球二氧化碳水平过低: §6增加熔炉排放'
+    BALANCED: 全球二氧化碳水平处于平衡状态
+    HIGH: '§f全球二氧化碳水平过高: §6种植树苗'
+    HIGHWITHBOUNTY: '§f或见: §6/gw help§f 创建一个奖赏'
+    AVERAGE: '1951-1980年平均气温: §614°C§f, 这是你的目标'
   TOPTABLE:
-    PLAYER: PLAYER
-    INDEX: INDEX
-    SCORE: SCORE
-    POLLUTERS: TOP 10 POLLUTERS
-    PLANTERS: TOP 10 TREE PLANTERS
-    ERROR: §cError creating polluter / planter table
+    PLAYER: 玩家
+    INDEX: 索引
+    SCORE: 成绩
+    POLLUTERS: 10大污染者
+    PLANTERS: 10大种植者
+    ERROR: §c创建污染源/种植者列表时出错
   WIKI:
-    ADDED: §fThe §6GlobalWarming§f wiki was added to your inventory
-    ALREADYADDED: §fYou already have the §6GlobalWarming§f wiki
-    NAME: §fGlobalWarming Wiki
-    AUTHOR: Team GW
-    LORE: §8Gameplay and instructions
+    ADDED: §f将 §6全球变暖§f 百科 添加到你的库存中
+    ALREADYADDED: §f你已经有了 §6全球变暖§f 的百科
+    NAME: §f全球变暖百科
+    AUTHOR: GW团队
+    LORE: §8游戏说明
     INTRODUCTION: |
-      §0GOAL:§8
-      Prevent global warming by offsetting furnace emissions
+      §0目标:§8
+      通过降低熔炉排放来防止全球变暖
 
-      §0GAMEPLAY:§8
-       - §6Furnaces§8 emit CO2 when smelting
-       - §6Saplings§8 absorb CO2 while growing
+      §0游戏:§8
+       - §6熔炉§8 烧制时排放二氧化碳
+       - §6树苗§8 生长时吸收二氧化碳
 
-      §0CHALLENGE:§8
-      Work together to maintain CO2 levels
+      §0挑战:§8
+      共同努力保持二氧化碳水平
     SCORES: |
-      §0PLAYER SCORES:§8
-      Each player has a carbon footprint score
-      Your footprint is §60§8 when your CO2 emissions are balanced
+      §0玩家成绩:§8
+      每个玩家都有碳足迹得分
+      当你的二氧化碳排放量平衡时, 你的足迹为 §60
 
-      §0GLOBAL TEMPERATURE:§8
-      Player scores combine to affect the global climate:
-       - §614.0C§8 is the goal
+      §0全球温度:§8
+      玩家得分综合影响全球气候:
+       - §614.0C§8 就是目标
     EFFECTS: |
-      §0GLOBAL WARMING:§8
-      CO2 levels affect global temperature:
-       - §6Too high:§8 heat is trapped
-       - §6Too low:§8 too much heat can escape
+      §0全球变暖:§8
+      二氧化碳水平影响全球温度:
+       - §6太高:§8 很热
+       - §6太低:§8 太多的热量会溢出
 
       §0EFFECTS:§8
-       - Sea level
-       - Ice / snow
-       - Farm yields
-       - Mob counts
-       - Player movement
+       - 海平面
+       - 冰 / 雪
+       - 农业产量
+       - 怪物数量
+       - 玩家移动
     BOUNTY: |
-      §0BOUNTY COMMANDS:§8 (requires VAULT)
-       - §6/gw bounty:§8 show or join active bounties
+      §0奖赏命令:
+       - §6/gw bounty:§8 显示或加入活动奖赏
 
-       - §6/gw bounty create [tree-blocks] [reward]:§8 pay other players to plant trees on your behalf, improving your carbon score and the global climate
+       - §6/gw bounty create [树种] [奖励]:§8 付费让其他玩家为你植树, 提高你的碳排放分数和全球气候
     OTHER: |
-      §0OTHER COMMANDS:§8
-       - §6/gw score [show | hide]:§8 access carbon footprint information or modify scoreboard visibility
+      §0其他命令:§8
+       - §6/gw score [show | hide]:§8 设置记分板可见性 [show 显示 | hide 隐藏]
 
-       - §6/gw top [polluter | planter]:§8 top ten player lists
+       - §6/gw top [polluter | planter]:§8 前10玩家名单 [polluter 污染者 | planter 种植者]
 
-       - §6/gw help:§8 command list
+       - §6/gw help:§8 命令列表
