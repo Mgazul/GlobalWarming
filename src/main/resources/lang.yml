@@ -1,68 +1,68 @@
 locale: en-US
 lang:
   GENERIC:
-    PERMISSION: §c你没有权限使用该命令
-    INVALIDARGS: '§c无效的命令参数, 应该为: §7%s'
-    SPAM: §8一次请求太多
-    INVENTORYFULL: §c你的库存已满
+    PERMISSION: §c§OInsufficient permissions for GlobalWarming command
+    INVALIDARGS: '§c§OInvalid command arguments, expecting: §7§O%s'
+    SPAM: §8§OToo many requests at once
+    INVENTORYFULL: §c§OYour inventory is full
   BOUNTY:
-    PLAYER: 玩家
-    HUNTER: 猎人
-    BLOCKS: 方块
-    BLOCKSREQUIRED: §c至少需要一个方块
-    REWARD: 奖赏
-    REWARDREQUIRED: §c最低奖赏为 1
-    JOIN: §a加入
-    JOINTOOLTIP: §a点击此处开始此奖赏
-    TITLE: 主动奖赏
-    ERROR: §c创建奖赏列表时出错
-    ALREADYHUNTING: '§c无法加入: 每个玩家一个奖赏'
-    NOTFOUND: '§c无法加入: 找不到奖赏'
-    ANOTHERPLAYER: '§c无法加入: 已被其他玩家接受'
-    BOUNTYOWNER: '§c无法加入: 你拥有这个奖赏'
-    CREATED: '§2已创建奖赏 §a(余额: %.2f)'
-    NOTCREATED: '§c无法创建奖赏 §7(余额: %.2f)'
-    MAXCREATED: §c此时你不能创建其它奖赏
-    ACCEPTED: §2奖赏接受
-    ACCEPTEDBY: '§2奖赏接受玩家: §a%s'
-    COMPLETED: '§2完成奖励: §a+%d'
-    COMPLETEDBY: '§2奖赏完成玩家: §a%s'
-    NOTJOINED: §c你还没有加入奖赏
-    ABANDONED: §2放弃奖赏
-    ABANDONEDBY: '§2奖赏放弃玩家: §a%s'
-    CANCELLED: '§2奖赏取消: §a%s§2, 退款: §a+%d'
+    PLAYER: PLAYER
+    HUNTER: HUNTER
+    BLOCKS: BLOCKS
+    BLOCKSREQUIRED: §c§OA minimum of one block is required
+    REWARD: REWARD
+    REWARDREQUIRED: §c§OA minimum reward of $1 is required
+    JOIN: §aJOIN
+    JOINTOOLTIP: §aClick here to begin this bounty
+    TITLE: ACTIVE BOUNTIES
+    ERROR: §c§OError creating the bounty-list table
+    ALREADYHUNTING: '§c§OCannot join: one bounty per player'
+    NOTFOUND: '§c§OCannot join: bounty not found'
+    ANOTHERPLAYER: '§c§OCannot join: accepted by another player'
+    BOUNTYOWNER: '§c§OCannot join: you own this bounty'
+    CREATED: '§2§OBounty created §a§O(new balance: $%.2f)'
+    NOTCREATED: '§c§OUnable to create bounty §7§O(balance: $%.2f)'
+    MAXCREATED: §c§OYou cannot create additional bounties at this time
+    ACCEPTED: §2§OBounty accepted
+    ACCEPTEDBY: '§2§OBounty accepted by: §a§O%s'
+    COMPLETED: '§2§OBounty completed: §a§O+$%d'
+    COMPLETEDBY: '§2§OBounty completed by: §a§O%s'
+    NOTJOINED: §c§OYou have not joined a bounty
+    ABANDONED: §2§OBounty abandoned
+    ABANDONEDBY: '§2§OBounty abandoned by: §a§O%s'
+    CANCELLED: '§2§OBounties cancelled: §a§O%s§2§O, refund: §a§O+$%d'
   ENGINE:
-    DISABLED: §8全球变暖在此世界未启用
-    NOTFOUND: '找不到适用于世界的气候引擎: ''%s'''
+    DISABLED: §8§OGlobalWarming is not enabled for this world
+    NOTFOUND: 'Climate engine not found for world: ''%s'''
   NOTIFICATION:
     DEFAULT:
-      LOW: '§f史蒂夫: %s没有更多的树，是时候建造了!'
-      OK: '§f史蒂夫: %s我们的世界状态很好!'
-      HIGH: '§f史蒂夫: %s让我们再种些树吧!'
+      LOW: '§fSteve says: %sno more trees, it''s time to build!'
+      OK: '§fSteve says: %sour world is in great shape!'
+      HIGH: '§fSteve says: %slet''s plant more trees!'
     FARM:
-      LOW: '§f农民: %s低二氧化碳正在损害我们的 %s 作物'
-      OK: '§f农民: %s今年有丰收'
-      HIGH: '§f农民: %s高二氧化碳正在损害我们的 %s 作物'
+      LOW: '§fFarmers: %slow CO2 is hurting our %s crops'
+      OK: '§fFarmers: %shaving bumper crops this year'
+      HIGH: '§fFarmers: %shigh CO2 is hurting our %s crops'
     FIRE:
-      LOW: '§f森林管理局: %s火灾限制生效!'
-      OK: '§f森林管理局: %s火灾风险很低'
-      HIGH: '§f森林管理局: %s火灾限制生效!'
+      LOW: '§fForest Service: %sfire restrictions are in effect!'
+      OK: '§fForest Service: %sthe risk of fire is low'
+      HIGH: '§fForest Service: %sfire restrictions are in effect!'
     ICE:
-      LOW: '§f科学家: %s低二氧化碳会影响冰况'
-      OK: '§f科学家: %s预计今年的冰况很正常'
-      HIGH: '§f科学家: %s高二氧化碳正在影响结冰条件'
+      LOW: '§fScientists: %slow CO2 is affecting ice conditions'
+      OK: '§fScientists: %sexpect normal ice conditions this year'
+      HIGH: '§fScientists: %shigh CO2 is affecting ice conditions'
     MOB:
-      LOW: '§f动物学家: %s低二氧化碳影响了 %s 人口'
-      OK: '§f动物学家: %s%s 人口在增长'
-      HIGH: '§f动物学家: %s高二氧化碳影响了 %s 人口'
+      LOW: '§fZoologists: %slow CO2 is affecting %s populations'
+      OK: '§fZoologists: %s%s populations are thriving'
+      HIGH: '§fZoologists: %shigh CO2 is affecting %s populations'
     SEALEVEL:
-      LOW: '§f海洋学家: %s低二氧化碳, 担心海平面!'
-      OK: '§f海洋学家: %s不关心海平面!'
-      HIGH: '§f海洋学家: %s高二氧化碳, 观察到冰盖融化!'
+      LOW: '§fOceanographers: %slow CO2, worried about sea levels!'
+      OK: '§fOceanographers: %snot concerned about sea levels!'
+      HIGH: '§fOceanographers: %shigh CO2, observed ice caps melting!'
     SNOW:
-      LOW: '§f科学家: %s低二氧化碳会影响雪况'
-      OK: '§f科学家: %s预计今年会有正常的降雪天气'
-      HIGH: '§f科学家: %s高二氧化碳会影响雪况'
+      LOW: '§fScientists: %slow CO2 is affecting snow conditions'
+      OK: '§fScientists: %sexpect normal snow conditions this year'
+      HIGH: '§fScientists: %shigh CO2 is affecting snow conditions'
     SLOWNESS:
       LOW: '§fDoctors: %sreporting increased respiratory issues'
       OK: '§fDoctors: %san apple a day is a great snack'
@@ -88,7 +88,7 @@ lang:
     SCORE: SCORE
     POLLUTERS: TOP 10 POLLUTERS
     PLANTERS: TOP 10 TREE PLANTERS
-    ERROR: §cError creating polluter / planter table
+    ERROR: §c§OError creating polluter / planter table
   WIKI:
     ADDED: §fThe §6GlobalWarming§f wiki was added to your inventory
     ALREADYADDED: §fYou already have the §6GlobalWarming§f wiki
