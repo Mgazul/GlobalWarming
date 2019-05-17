@@ -60,10 +60,6 @@
                     <dependencyReducedPomLocation>${project.build.directory}/dependency-reduced-pom.xml</dependencyReducedPomLocation>
                     <relocations>
                         <relocation>
-                            <pattern>co.aikar</pattern>
-                            <shadedPattern>net.porillo.shade.aikar</shadedPattern>
-                        </relocation>
-                        <relocation>
                             <pattern>org.apache</pattern>
                             <shadedPattern>net.porillo.shade.apache</shadedPattern>
                         </relocation>
